@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+</head>
+
+<style>
+    img {
+        width: 1000px;
+    }
+    p {
+        font-size: 14pt;
+        font-family: Consolas;
+    }
+    h2 {
+        font-family: Consolas;
+    }
+</style>
+
+<body>
+    <h2>1. Получить главную страницу методом GET в протоколе HTTP 1.0</h2>
+    <img src="img/1.jpg">
+    <p>
+        Сервер возвращает содержимое главной страницы
+    </p>
+
+    <h2>2. Получить внутреннюю страницу методом GET в протоколе HTTP 1.1</h2>
+    <img src="img/2.jpg">
+    <p>
+        Сервер возвращает содержимое внутренней страницы
+    </p>
+
+    <h2>3. Определить размер файла file.tar.gz, не скачивая его</h2>
+    <img src="img/3.jpg">
+    <p>
+        Content-Length указывает размер файла в байтах: 11335
+    </p>
+
+    <h2>4. Определить медиатип ресурса /image.png</h2>
+    <img src="img/4.jpg">
+    <p>
+        В строке Content-Type указан медиатип: image/png
+    </p>
+
+    <h2>5. Отправить комментарий на сервер по адресу /index.php</h2>
+    <img src="">
+    <p>
+        
+    </p>
+
+    <h2>6. Получить первые 100 байт файла /file.tar.gz</h2>
+    <img src="img/6.jpg">
+    <p>
+        Для этого используем Range: bytes=0-99
+    </p>
+
+    <h2>7. Определить кодировку ресурса /index.php</h2>
+    <img src="img/7.jpg">
+    <p>
+        В строке Content-Type указана кодировка: charset=UTF-8
+    </p>
+</body>
+</html>
